@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let r = +prompt("Nhập vào bán kính :")
+        let h = +prompt("Nhập vào chiều cao :")
+
+        let chuViday = 2 * Math.PI * r;
+        let sxq = chuViday * h ;
+        let stp = sxq + 2 * (Math.PI * r * r);
+        let v = Math.PI *r * h;
+
+        document.write("diện tích xung quanh" + sxq + "<br>");
+        document.write("diện tích toàn phần"+stp + "<br>");
+        document.write("thể tích hình trụ " + v + "<br>");
+        document.write("chu vi đáy"+ v + "<br>");
+    </script>
+</body>
+</html>
