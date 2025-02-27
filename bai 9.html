@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = +prompt("Nhập giá trị thứ 1 :")
+        let b = +prompt("Nhập giá trị thứ 2 :")
+        let c = +prompt("Nhập giá trị thứ 3 :")
+
+        let denta = b * b - 4 * a * c;
+        let denta2 =  Math.sqrt(denta);
+        let x1;
+        let x2;
+        console.log(denta);
+
+        if(denta>0){
+        let x1 = (-b + denta2) / (2 * a);
+        let x2 = (-b - denta2) / (2 * a);
+        document.write(x1 + "<br>");
+        document.write(x2);
+        } else {}
+
+        
+        
+        
+    </script>
+</body>
+</html>
