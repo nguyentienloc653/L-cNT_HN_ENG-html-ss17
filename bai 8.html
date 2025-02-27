@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let date1 = prompt("Nhập ngày thứ nhất :");
+        let date2 = prompt("Nhập ngày thứ hai :");
+
+        let one = new Date(date1);
+        let tow = new Date(date2);
+
+        let diff =(one.getTime()-tow.getTime()) /1000 /60 /60 /24;
+        console.log(`Độ lệch nhau là ${Math.abs(diff) }`);
+
+
+    </script>
+</body>
+</html>
